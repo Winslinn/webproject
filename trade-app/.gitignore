@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src/styles/main.css
+*.css.map
+.env
+.env.*
+!.env.example
