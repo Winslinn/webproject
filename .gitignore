@@ -7,4 +7,3 @@ dist/
 .agents
 css/main.css.map
 .pnpm-store/
-src/styles/main.css
