@@ -1,0 +1,22 @@
+@use '../abstracts/variables' as *;
+
+:root {
+  font-family: $font-base;
+  color: $color-text;
+  background: $color-bg;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: min($bp-desktop, calc(100% - 48px));
+  margin: 0 auto;
+}

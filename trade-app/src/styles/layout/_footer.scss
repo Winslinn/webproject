@@ -1,0 +1,24 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.site-footer {
+  border-top: 1px solid $color-border;
+}
+
+.footer-row {
+  @include flex-center(space-between);
+  min-height: 62px;
+  color: $color-muted;
+  font-size: 10px;
+}
+
+.footer-row .brand {
+  color: $color-text;
+  font-size: 17px;
+}
+
+@include respond-to($bp-mobile) {
+  .footer-row > span:nth-child(2) {
+    display: none;
+  }
+}
