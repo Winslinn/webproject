@@ -1,0 +1,28 @@
+@use 'sass:color';
+
+// Основні кольори сторінки
+$color-primary: #d8ef70;
+$color-primary-dark: color.adjust($color-primary, $hue: 3.16deg, $saturation: -27.67%, $lightness: -28.63%);
+$color-text: #252820;
+$color-muted: #7b8075;
+$color-bg: #f8f8f4;
+$color-surface: #fff;
+$color-border: #e7e8df;
+$color-hero: #eef0e7;
+
+// Типографіка
+$font-base: Arial, sans-serif;
+$fs-base: 13px;
+$fs-small: 9px;
+$fs-large: 24px;
+
+// Розміри та ефекти
+$radius: 14px;
+$space: 16px;
+$shadow: 0 9px 8px #00000018;
+$transition: .2s ease;
+
+// Межі адаптивності
+$bp-tablet: 760px;
+$bp-mobile: 420px;
+$bp-desktop: 1120px;
